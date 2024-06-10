@@ -14,7 +14,7 @@ Improving speed and memory in the field of data mining such as mining highly use
 
 ## Tech Stack
 
-Python, bitarray, multiprocessing
+Python, bitarray, multiprocessing, QT6, ...
 
 
 ## Examples
@@ -48,7 +48,7 @@ The output file format of high utility itemsets is defined as follows. It is a t
 4 5 #UTIL: 40
 1 2 4 #UTIL: 41
 ```
-For example, the first line indicates that the itemset {4, 5} is a high utility itemset which has utility equals to 41. The following lines follows the same format.
+For example, the first line indicates that the itemset {4, 5} is a high utility itemset which has utility equals to 40. The following lines follows the same format.
 
 
 ## Documentation
