@@ -1,2 +1,0 @@
-from . import genethic_algorithms_solve_quadratic_equations
-from . import solve_quadratic_equations

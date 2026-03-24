@@ -1,0 +1,3 @@
+[environment]
+python = "./.venv"
+python-version = "3.12"

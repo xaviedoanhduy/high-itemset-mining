@@ -1,0 +1,41 @@
+[project]
+name = "high-itemset-mining"
+version = "0.0.0"
+description = "High Utility Itemset Mining using Genetic Algorithm"
+authors = [{name = "xaviedoanhduy", email = "doanhduyxavie@gmail.com"}]
+requires-python = ">=3.10"
+readme = "README.md"
+license = "AGPL-3.0"
+license-files = ["LICENSE"]
+
+dependencies = [
+    "typer>=0.20",
+    "bitarray>=2.9",
+    "psutil>=5.9",
+]
+
+[project.urls]
+Repository = "https://github.com/trobz/high-itemset-mining"
+[project.scripts]
+high-itemset-mining = "high_itemset_mining.main:app"
+
+[dependency-groups]
+dev = [
+    "pre-commit>=2.20.0",
+    "ty>=0.0.1a16",
+    "ruff>=0.11.5",
+    "pytest>=7.2.0",
+    "python-semantic-release>=10.5.3",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+
+[build-system]
+requires = ["uv_build>=0.7.19,<0.8.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "high_itemset_mining"
+module-root = ""
