@@ -1,0 +1,12 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v1.2.0
+_src_path: https://github.com/trobz/trobz-python-template.git
+author_email: doanhduyxavie@gmail.com
+author_username: xaviedoanhduy
+enable_github_action: false
+package_name: high_itemset_mining
+project_description: High Utility Itemset Mining using Genetic Algorithm
+project_name: high-itemset-mining
+project_type: cli
+repository_name: high-itemset-mining
+repository_namespace: xaviedoanhduy
